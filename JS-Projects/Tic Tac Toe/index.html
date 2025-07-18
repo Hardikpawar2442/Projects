@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="bgMusic" src="music.mp3" loop></audio>
+    <button id="musicToggle">Play Music</button>
+    <audio id="gameOverSound" src="gameover.mp3"></audio>
+    <audio id="clickSound" src="ting.mp3"></audio>
+    
+    <main>
+        <div class="container">
+            <h1>Tic Tac Toe Game</h1>
+            <div class="msgContainer hide">
+                <p class="msg">!! winner !!</p>
+                <button class="newBtn">New Game</button>
+            </div>
+            
+            <div class="gameBox">
+                <div class="box bt bl"></div>
+                <div class="box bt"></div>
+                <div class="box bt br"></div>
+                <div class="box bl"></div>
+                <div class="box"></div>
+                <div class="box br"></div>
+                <div class="box bl bb"></div>
+                <div class="box bb"></div>
+                <div class="box br bb"></div>
+            </div>
+            <button id="resetBtn">Reset Game</button>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
