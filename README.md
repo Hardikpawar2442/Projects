@@ -1,2 +1,3 @@
 # Projects
-This contains basic html, css and JS project.
+This contains basic html, css and JS projects.
+
